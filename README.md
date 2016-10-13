@@ -9,7 +9,7 @@ The initial idea for the RES grew from a desire to create an expert system shell
   + Auditory Brainstem Evoked Responses (ABER)  
   
 ##**The RES as first developed**
-The RES consisted of three databases. The Problem Definition, Problem Space and Run Enquiry databases.  
+The RES consisted of three databases - the Problem Definition, Problem Space and Run Enquiry databases.  
 ###**Problem Definition**
 A problem might be a main problem, subproblem or a flow problem.  
 A problem has inputs.  
