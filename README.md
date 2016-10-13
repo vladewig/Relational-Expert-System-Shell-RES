@@ -1,6 +1,6 @@
 # hello-world
 ##**Ideas for a Relational Expert System (RES) - copyright 1992 Vince Ladewig**
-The initial idea grew from a desire to create an expert system shell back in 1992 for use in building a expert system for determining the "site of lesion" from information obtained from performing an audiometric battery of tests:  
+The initial idea grew from a desire to create an expert system shell back in 1992 for use in building a expert system for determining the "site of lesion" from information obtained from performing a battery of audiometric tests:  
   + PTA - air and bone  
   + Tympanometry  
   + Impedance  
