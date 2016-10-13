@@ -1,13 +1,14 @@
 # hello-world
-Ideas for a Relational Expert System (RES) - copyright 1992 Vince Ladewig  
-The initial idea grew from a desire to create an expert system shell back in 1992 for use in building a expert system for  determining the "site of lesion" from information obtained from performing an audiometric battery of tests:
-  PTA - air and bone  
-  Tympanometry  
-  Impedance  
-  Reflex  
-  Speech  
-  ABR  
-The RES
+##**Ideas for a Relational Expert System (RES) - copyright 1992 Vince Ladewig**  
+The initial idea grew from a desire to create an expert system shell back in 1992 for use in building a expert system for determining the "site of lesion" from information obtained from performing an audiometric battery of tests:  
+  + PTA - air and bone  
+  + Tympanometry  
+  + Impedance  
+  + Reflex  
+  + Speech  
+  + Auditory Brainstem Evoked Responses (ABER)  
+  
+##**The RES**  
   A problem has inputs which take on allowed values  
   A problem space is the table generated from all combinations of values of all inputs for a problem  
   A problem has results  
@@ -20,6 +21,7 @@ The RES
   The RES allows for backward chaining - the depth was determined by the amount of memory  
   The RES allows for refining the granularity of the web of problems  
 
+##**Some History**  
 The initial system was built in DOS using a product called DataBoss (Kedwell Software - Brisbane OZ based) which was a flexible development environment which used TurboPascal (Borland) as the language for building relational databases  
 DataBoss managed all the housekeeping after the developer entered the table definitions and the keys  
 DataBoss allowed the developer to insert code into skeleton files which were used to generate the source code which was then compiled  
