@@ -1,5 +1,5 @@
 # hello-world
-##**Ideas for a Relational Expert System (RES) - copyright 1992, 2016 Vince Ladewig**
+#**Ideas for a Relational Expert System (RES) - copyright 1992, 2016 Vince Ladewig**
 The initial idea for the RES grew from a desire to create an expert system shell back in 1992 for use in building an expert system for determining the "site of lesion" from information obtained from performing a battery of audiometric tests:  
   + PTA - air and bone  
   + Tympanometry  
@@ -11,13 +11,14 @@ The initial idea for the RES grew from a desire to create an expert system shell
 ##**The RES as first developed**
 The RES consisted of three databases - the Problem Definition, Problem Space and Run Enquiry databases.  
 ###**Problem Definition**
+The problem Definition database holds the definitions of the problems, their inputs, the values that inputs may take and the possible results of a problem.  
+This database maintains the network of problems. The problem network is an interlinking structure of problems. The linking is via the inputs/subproblem inputs and problem results/flow resusults.   
 A problem might be a main problem, subproblem or a flow problem.  
 A problem has inputs.  
 Inputs take on allowed values.  
-The RES allows for backward chaining - an input may also be the result of a subproblem  
+The RES allows for backward chaining - an input may also be the result of a subproblem.  
 A problem has results.  
 A result might be an answer or it might flow into another problem (a flow problem result) or it might be a subproblem result and provide an input value for another problem.  
-The depth of backward chaining only became an issue when traversing/using the expert system - it was limited by system memory.  
 The RES allowed for the assignment of a result to each unique combination of input.
 The result was chosen from allowed values.
 The RES allowed for refining the granularity of the web/network of problems.  
@@ -33,13 +34,14 @@ VArious checks are made as the problems are defined to ensure the integrity of t
 
 ###**Problem Space**
 The RES generates the problem space.  
-A problem space is the table generated from all combinations of values of all inputs for a problem.  
-An interface is provided for each row in the generated problem space table to be assigned a result by the expert.  
+A problem space is the database generated from all combinations of values of all inputs for a problem.  
+An interface is provided to allow the expert to assign a result to each row in the generated problem space table.  
 Various checks are made to ensure integrity of the problem spaces.   
 
 ###**Run Enquiry**
 A mechanism exists for traversing the network of problems.  
 A traverse of a problem network is captured in a log.  
+The depth of backward chaining could become an issue when traversing/using the expert system.  The depth was limited by the amount of system memory available to the process.  
 During the traverse a record is kept of the problem spaces visited, the values of inputs used and the results obtained  
 A traverse is commenced with at the main problem and input questions are asked in alphabetic order
 
