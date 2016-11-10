@@ -9,7 +9,7 @@ The initial idea for the RES grew from a desire to create an expert system shell
   + Auditory Brainstem Evoked Responses (ABER)  
   
 ##**The RES as first developed**
-The RES consisted of three databases - the Problem Definition, Problem Space and Run Enquiry databases.  
+The RES consisted of three databases - the Problem Definition, Problem Space and Run Enquiry databases.  The Problem Definition data base was populated by the user during problem definition.  The Problem Space was populated by the system once the problem had been defined.  The Run Enquiry data base was a collection of logs generated as a user traversed the problem network in order to anser/solve a problem.  
 ###**Problem Definition**
 The problem Definition database holds the definitions of the problems, their inputs, the values that inputs may take and the possible results of a problem.  
 This database maintains the network of problems. The problem network is an interlinking structure of problems. The linking is via the inputs/subproblem inputs and problem results/flow resusults.   
