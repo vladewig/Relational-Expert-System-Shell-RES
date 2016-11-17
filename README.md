@@ -1,5 +1,5 @@
 # Relational Expert System Shell - RES
-#**Ideas for a Relational Expert System (RES) - copyright 1992, 2016 Dr Vince Ladewig**
+#**Ideas for a Relational Expert System Shell (RES) - copyright 1992, 2016 Dr Vince Ladewig**
 The initial idea for the RES grew from a desire to create an expert system shell back in 1992 for use in building an expert system for determining the "site of lesion" from information obtained from performing a battery of audiometric tests:  
   + PTA - air and bone  
   + Tympanometry  
